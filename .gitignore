@@ -1,0 +1,25 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of the go coverage tool
+*.cover
+
+# Output of the go build tool
+bin/
+
+# Ignore vendor directory, if you're not committing dependencies
+/vendor/
+
+# Editor specific files
+.idea/
+.vscode/
+.DS_Store
+*.swp
+
+# Go modules
+/go.sum
